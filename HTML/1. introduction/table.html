@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>My Cool website</title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+        }
+
+        /* thead {
+            background-color: aqua;
+        } */
+
+        tbody {
+            font-size: medium;
+            background-color: antiquewhite;
+        }
+
+        tfoot,td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Table in HTML</h2>
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <td>name</td>
+                <td>city</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>afzal</td>
+                <td rowspan="2">vadodara</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sahil</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total</td>
+            </tr>
+        </tfoot>
+
+    </table> -->
+
+    <table>
+        <colgroup>
+        <col style="background-color: cadetblue;"></colgroup>
+        <thead>
+            <tr>
+                <td colspan="3">2022</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>rekha</td>
+                <td>suresh</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Goal</td>
+                <td>Pankaj</td>
+            </tr>
+            <tr>
+                <td>raju</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td style="background-color: aqua;">s</td>
+                <td>s</td>
+                <td>s</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+
+</html>

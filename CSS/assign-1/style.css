@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    margin-inline: auto;
+    column-gap: 10px;
+    width: 80%;
+}
+
+.left{
+    flex-basis: 50%;
+    background-color: aqua;
+    margin: 50px;
+    padding: 20px;
+}
+
+.right {
+    flex-basis: 50%;
+    background-color: blueviolet;
+ }
+
+ .icon-text {
+    display: flex;
+ }

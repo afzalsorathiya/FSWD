@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/10676926/pexels-photo-10676926.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load")
+     ;
+
+     background-repeat: no-repeat;
+}
+
+.red{
+    color: red;
+    background-color: cyan;
+    width: 50vw;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.green{
+    background-color: greenyellow;
+    width: 50vw;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}  
+.blue{
+    background-color: blue;
+    width: 50vw;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+
+
+.box{
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+.red-alert{
+    margin: 30px;
+    background-color: rgb(226, 175, 175);
+    height: 40px;
+    border-left: 10px solid red;
+    padding: 20px 0px 0px 20px;
+}
+
+.input-box{
+    margin: 10px 0px 0px 20px;
+    height: 40px;
+    background-color: azure;
+    border: 5px solid skyblue;
+    border-radius: 15px;
+}

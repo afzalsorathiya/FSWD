@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- Using User input -->
+    <form action="#" method="get">
+
+        <label for="name">Name :</label>
+        <input id="name" type="text" name="username">
+
+
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="number">Number :</label>
+        <input type="number" name="mobnumber" id="number">
+
+        <br><br>
+        <!-- Radio Box
+            Always All radio names are same
+        -->
+
+        <input type="radio" id="radio-1" name="radio" value="Apple">
+        <label for="radio-1">Apple</label>
+        <br><br>
+
+        <input type="radio" id="radio-2" name="radio"   value="banana">
+        <label for="radio-2">Banana</label>
+        <br><br>
+
+        <input type="radio" id="radio-3" name="radio" value="chiku">
+        <label for="radio-3">Chiku</label>
+
+        <br><br>
+        <input type="radio" id="radio-1" name="radio-1" value="HTML">
+        <label for="radio-1">Check Terms and Conditions</label>
+        <br><br>
+        <input type="checkbox" id="checkbox-1" name="checkbox-1">
+        <label for="checkbox-1">Accept first command </label>
+
+        <br><br>
+        <!-- Dropdown -->
+        <label for="country">Select Your Country :</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+
+        </select>
+
+        
+        <br><br>
+        <label for="tellmeaboutyourself">Tell me About your self</label><br>
+        <textarea name="tellmeaboutyourself" id="tellmeaboutyourself" cols="60" rows="10">Please enter some values </textarea>
+        <br><br>
+        <!-- <input type="radio" id="radio-1" name="radio-1" value="HTML">
+        <label for="radio-1">HTML</label> -->
+
+
+        <input type="reset">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

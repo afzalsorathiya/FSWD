@@ -1,0 +1,10 @@
+.container{
+    background-color: lemonchiffon;
+    width: 80%;
+}
+
+.main{
+background-color: aqua;
+/* width: 50%; */
+width: 100vw;
+}
