@@ -29,13 +29,14 @@ body{
 
 .image-box img {
     width: 100%;
+    border-radius: 50%;
 }
 
 .font-name {
     color: white;
     position: absolute;
-    bottom: 15px;
-    left: 30px;
+    bottom: 40px;
+    left: 80px;
 }
 
 .image-box {

@@ -1,0 +1,37 @@
+.main{
+    height: 540px;
+    width: 1000px;
+    background-color: #FF7043;
+}
+
+.row-1{
+    height: 110px;
+    width: 1000px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 5px 0px;
+    color: blue;
+}
+
+.row-2{
+    width: 1000px;
+    height: 40px;
+    background: #00838F;
+    display: flex;
+}
+
+.row {
+    width: 200px;
+    text-align: center;
+    color: white;
+    /* position: relative; */
+    /* top: 10px; */
+    margin-top:10px;
+}
+
+.row-3{
+    width: 1000px;
+    height: 200px;
+    background-color: aqua;
+
+}
