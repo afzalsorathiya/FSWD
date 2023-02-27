@@ -1,15 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WSCUBETECH</title>
-</head>
-<body>
-    
-    <meter min="0" max="100" value="100"> </meter>
+    <style>
+      fieldset {
+        display: inline-block;
+      }
+      hr {
+        display: none;
+      }
+    </style>
+  </head>
 
+  <body>
+    <!-- ? <meter min="0" max="100" value="100"> </meter>
+        
+     -->
+    <!-- * This is commends 
+     ? this is second commans
+     TODO This is todo
+     ! alert -->
+    <!--? Lorem ipsum dolor s
+        * it amet consectetur adipisicing elit. 
+     * Reiciendis optio, doloribus laboriosam adipisci consequuntur laborum impedit molestiae provident? Consequatur quis aliquid molestias laudantium ducimus possimus veniam quas officia assumenda eius magni, aliquam ratione rem reprehenderi
+     t fugit nam inventore magnam quo! Aspernatur nulla suscipit eius accusantium nobis eveniet asperiores eaque possimus. -->
+    <fieldset>
+      <legend>Calender Elements</legend>
+      <form action="">
+        <label for="date">Date :</label>
+        <input type=" date" id="date" />
 
-</body>
+        <br /><br />
+
+        <label for="date-time">Date & Time</label>
+        <input type="datetime-local" id="date-time" name="date-time" />
+        <br /><br />
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" />
+        <br /><br />
+        <label for="month">month</label>
+        <input type="month" id="month" name="month" />
+        <br /><br />
+        <label for="week">week</label>
+        <input type="week" id="week" name="week" />
+        <br /><br />
+        <input type="range" />
+      </form>
+    </fieldset>
+    <hr />
+    <fieldset>
+      <legend>HTML 5 Forms</legend>
+      <form action="">
+        <label for="color">Color</label>
+        <input type="color" id="color" />
+        <br /><br />
+        <label for="email">email</label>
+        <input
+          type="email"
+          id="email"
+          autofocus
+          required
+          value="afzalsorathiya19@gmail.com"
+          readonly
+          disabled
+        />
+        <br /><br />
+        <label for="password">password</label>
+        <input type="password" id="password" />
+
+        <br /><br />
+        <label for="number">number</label>
+        <input type="number" id="number" />
+        <br /><br />
+        <input type="submit" value="Subit" />
+        <input type="reset" />
+      </form>
+    </fieldset>
+    <hr />
+
+    <div align="left">
+      <form action="#">
+        <fieldset>
+          <legend>Enquiry</legend>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <br />
+          <br />
+          <label for="name">Address</label>
+          <textarea name="address" id="Address" cols="30" rows="2"></textarea>
+          <br /><br />
+          <label for="gender">Gender : </label>
+          <input type="radio" value="male" name="gender" id="gender" /> Male
+          <input type="radio" value="female" name="gender" id="gender" /> Female
+
+          <br /><br />
+          <label for="country">Country :</label>
+          <select name="" id="country">
+            <option value="india">please enter country</option>
+            <optgroup label="Asia">
+              <option value="indoa">India</option>
+              <option value="pakistan">Pkistan</option>
+            </optgroup>
+            <option value="usa">USA</option>
+          </select>
+        </fieldset>
+      </form>
+    </div>
+    <hr />
+
+  </body>
 </html>
