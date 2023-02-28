@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iframe</title>
-</head>
-<body>
+    <style>
+      .maps {
+        width: 300px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
     <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas expedita excepturi, repellendus praesentium aliquid accusantium sed quos aspernatur maiores quia blanditiis quasi quidem autem consequuntur voluptatem. Deleniti ea illo culpa.</p> -->
     <!-- <iframe src="video.html" frameborder="2"></iframe> -->
     <!-- <br> -->
     <!-- <iframe width="100%" height="1000px" src="https://www.wscubetech.com/" frameborder="1"></iframe> -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jqxz7QvdWk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</body>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/jqxz7QvdWk8"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <!-- <p>Google maps</p> -->
+    <!-- <div class="maps"> 
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.1161683245195!2d73.23479558934707!3d22.31144592406873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf83f3965939%3A0xfc172520a33bd444!2sBahar%20Colony%20Rd%2C%20Bhagyalaxmi%20Society%2C%20Bahar%20Colony%2C%20Kishanwadi%2C%20Vadodara%2C%20Gujarat%20390019!5e0!3m2!1sen!2sin!4v1677587037833!5m2!1sen!2sin"
+        width="800"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>-->
+
+    <hr>
+    <!-- Auto suggestion -->
+    <form action="">
+        <p>Auto suggestion</p>
+        <label for="courses">Courses : </label>
+        <input type="text" id="courses" name="courses" autofocus placeholder="course name" list="course_list">
+        <datalist id="course_list">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="react">React</option>
+            <option value="flutter">Flutter</option>
+        </datalist>
+        <input type="submit" value="Submit">
+
+
+    </form>
+    <hr>
+    <details open>
+        <summary>Web Development courses</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae repellat facere fuga non esse sint inventore minus quam fugiat mollitia molestiae, est odio ad neque nobis dolore tenetur, aliquam, incidunt illum culpa. Error reprehenderit, quae aliquam explicabo, quasi, enim modi nulla vel cumque sit voluptatem asperiores rerum? Tempore dicta iure aut! Eligendi eos perferendis perspiciatis eaque odit sequi vitae facilis quisquam ducimus fugiat, debitis nam quis iste illum reiciendis dolores explicabo amet aspernatur! Molestiae pariatur velit nostrum rem, ex culpa debitis id, asperiores veniam vitae consequatur minus enim eveniet aspernatur ipsam eaque? Enim, unde magnam, aliquam sed hic quaerat odit atque debitis vitae at adipisci nam nulla officia? Pariatur omnis quod autem modi sed odio alias temporibus similique hic quidem commodi quaerat dicta perspiciatis dolorem delectus veniam eius, nesciunt eveniet nulla aperiam eaque. Qui itaque, tempora officiis reiciendis dolore voluptatem molestias distinctio exercitationem, beatae, at ipsa quod assumenda commodi ad.</p>
+
+        <details>
+                <p>test</p>
+        </details>
+
+    </details>
+
+    <details open>
+      <summary>Special Charcter is HTML 5</summary>
+      <p>Copy Right &copy;</p>
+      <p>Trade Mark &trade;</p>
+      <p>Registerd Trade mark &reg;</p>
+
+
+    </details>
+  </body>
 </html>
